@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="au.edu.sydney.soft3202.project.ProjectTest" tests="28" skipped="0" failures="0" errors="0" timestamp="2026-09-21T05:37:04" hostname="SHIMIAOSPC" time="5.345">
+  <properties/>
+  <testcase name="artObjectPageTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="1.842"/>
+  <testcase name="labelsTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.021"/>
+  <testcase name="linksTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.014"/>
+  <testcase name="resultEntryTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.192"/>
+  <testcase name="principalMakersTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.017"/>
+  <testcase name="emailContentBuilder()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.031"/>
+  <testcase name="imageTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.02"/>
+  <testcase name="tilesTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.015"/>
+  <testcase name="mailServiceTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.031"/>
+  <testcase name="databaseTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.065"/>
+  <testcase name="dimensionsTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.005"/>
+  <testcase name="artObjectTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.004"/>
+  <testcase name="collectionDetailedObjectTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.003"/>
+  <testcase name="statusTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.004"/>
+  <testcase name="getCollectionDetailedAPIThrowRuntimeExceptionTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="1.622"/>
+  <testcase name="getCollectionAPIlTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="1.306"/>
+  <testcase name="webImageTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.003"/>
+  <testcase name="datingTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.003"/>
+  <testcase name="detailedLinksTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.003"/>
+  <testcase name="adlibOverridesTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.002"/>
+  <testcase name="colorsWithNormalizationTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.002"/>
+  <testcase name="colorsTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.003"/>
+  <testcase name="acquisitionTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.004"/>
+  <testcase name="artObjectsTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.003"/>
+  <testcase name="collectionResultsTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.005"/>
+  <testcase name="dummyServiceTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.005"/>
+  <testcase name="classificationTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.002"/>
+  <testcase name="mediaBuilderTest()" classname="au.edu.sydney.soft3202.project.ProjectTest" time="0.099"/>
+  <system-out><![CDATA[https://data.rijksmuseum.nl/search/collection/objNum
+status:404
+https://data.rijksmuseum.nl/search/collection
+status:200
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

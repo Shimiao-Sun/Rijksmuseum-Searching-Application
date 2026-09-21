@@ -1,0 +1,50 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.10'
+}
+
+group 'au.edu.sydney.soft3202.project'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    junitVersion = '5.7.1'
+}
+
+sourceCompatibility = '17'
+targetCompatibility = '17'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+application {
+//    mainModule = 'au.edu.sydney.soft3202.project'
+    mainClass = 'au.edu.sydney.soft3202.project.App'
+}
+
+javafx {
+    version = '17.0.0.1'
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.swing', 'javafx.media']
+}
+
+dependencies {
+
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    testImplementation 'org.junit.jupiter:junit-jupiter-params:5.8.2'
+    testImplementation 'org.mockito:mockito-junit-jupiter:4.4.0'
+    testImplementation 'org.mockito:mockito-inline:4.4.0'
+    testImplementation 'org.mockito:mockito-core:4.4.0'
+    implementation 'com.google.code.gson:gson:2.9.0'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
+    implementation 'org.xerial:sqlite-jdbc:3.36.0.3'
+    implementation group: 'com.mashape.unirest', name: 'unirest-java', version: '1.4.9'
+}
+
+test {
+    useJUnitPlatform()
+}
